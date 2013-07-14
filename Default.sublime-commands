@@ -1,6 +1,6 @@
 [
 	{
 		"caption": "Json2Csv: Convert JSON to CSV",
-		"command": "json2cs"
+		"command": "json2csv"
 	}
 ]
