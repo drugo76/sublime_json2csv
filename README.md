@@ -17,7 +17,7 @@ git clone https://github.com/drugo76/sublime_json2csv.git "json2csv"
 
 ## Usage
 
-Having a valid JSON (or a valid JSON selection) in the active view, from the menu choose `Tools -> Command Palette`, start typing 'csv' and select the `Json2Csv: Convert JSON to CSV`.
+Having a valid JSON (or a valid JSON selection) in the active view, from the menu choose `Tools -> Command Palette`, start typing 'csv' and select the `Json2Csv: Convert JSON to CSV` item.
 
 ## Future Improvements
 
