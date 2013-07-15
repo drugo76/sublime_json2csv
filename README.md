@@ -10,10 +10,10 @@ The source JSON should contain only one nesting level (at least for now...).
 - Install this plugin via [Package Control](http://wbond.net/sublime_packages/package_control)
 
 - Otherwise clone this repository inside the Sublime Text 2 Packages folder.  
-To get the path to the Packages folder go to `Preferences -> Browse Packages`.
 ```` bash
 git clone https://github.com/drugo76/sublime_json2csv.git "json2csv"
 ````
+To get the path to the Packages folder go to `Preferences -> Browse Packages`.
 
 ## Usage
 
