@@ -5,6 +5,8 @@ It works both on the entire file and on single or multiple selections (if the in
 
 The source JSON should contain only one nesting level (at least for now...).
 
+Standalone version available here: [https://github.com/drugo76/json2csv](https://github.com/drugo76/json2csv)
+
 ## Installation
 
 - Install this plugin via [Package Control](http://wbond.net/sublime_packages/package_control)
