@@ -5,14 +5,14 @@
     "Age": 24
   },
   {
-    "IsMember": true,
     "Name": "Paul",
+    "IsMember": true,
     "Age": 44
   }, 
   {
+    "Age": 26,
     "IsMember": true,
-    "Name": "Ringo",
-    "Age": 26
+    "Name": "Ringo"
   }, 
   {
     "IsMember": false,
@@ -20,8 +20,8 @@
     "Age": 19
   }, 
   {
-    "IsMember": false,
     "Name": "Peter",
+    "IsMember": false,
     "Age": 34
   }, 
   {
