@@ -25,23 +25,20 @@ class Json2csvCommand(sublime_plugin.TextCommand):
 		writer       = csv.writer(csv_buffer)
 
 		for item in self.data:
-			item_values = []
-
 			for key in item:
-				if write_header:
+				if not key in item_keys:
 					item_keys.append(key)
-
+		writer.writerow(item_keys)
+		for item in self.data:
+			item_values = []
+			for key in item_keys:
 				value = item.get(key, '')
 				if type(value) is StringTypes:
 					item_values.append(value.encode('utf-8'))
 				else:
 					item_values.append(value)
+			writer.writerow(item_values)
 
-			if write_header:
-				writer.writerow(item_keys)
-				write_header = False
-
-			writer.writerow(item_values)	
 
 	def run(self, edit):
 		self.data            = []

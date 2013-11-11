@@ -9,6 +9,8 @@ Standalone version available here: [https://github.com/drugo76/json2csv](https:/
 
 ## Installation
 
+- Plugin requires simplejson python library. Can be found at [https://github.com/simplejson/simplejson](https://github.com/simplejson/simplejson).
+
 - Install this plugin via [Package Control](http://wbond.net/sublime_packages/package_control)
 
 - Otherwise clone this repository inside the Sublime Text 2 Packages folder.  
